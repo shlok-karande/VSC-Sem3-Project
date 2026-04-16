@@ -1,6 +1,6 @@
 # VSC-Sem3-Project
 Program :-
-#parkinglot.v :-
+parkinglot.v :-
 module parkinglot(
 input clk, input reset, 
 input entry_sensor, 
@@ -35,7 +35,7 @@ end
 endmodule
 
 
-#parkinglot_tb.v :-
+parkinglot_tb.v :-
 `timescale 1ns/1ps 
 module parkinglot_tb;
 reg clk, reset, entry_sensor, exit_sensor; 
